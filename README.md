@@ -24,7 +24,7 @@ source("_01-first_time_install.R")
 + Vous devez ensuite ouvrir chacun des 4 packages et l'installer
 ###### sndshare
 ```
-rstudioapi::openProject("~/sasdata1/sasuser/packages_R_externes/sndsmart/")
+rstudioapi::openProject("~/sasdata1/sasuser/packages_R_externes/sndshare/")
 ```
 + Puis : CTRL+SHIFT+B
 ###### sndsmart
