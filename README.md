@@ -1,6 +1,6 @@
 ## Première installation
 ```
-fs::dir_delete(paste0("~/sasdata1/sasuser/", c("packages_R_externes/", "local-R-lib/")))
+file.remove(paste0("~/sasdata1/sasuser/", c("packages_R_externes/", "local-R-lib/")), showWarnings = FALSE)
 fs::dir_create(paste0("~/sasdata1/sasuser/", c("packages_R_externes/", "local-R-lib/")))
 system("echo '.libPaths(c(\"~/sasdata1/sasuser/local-R-lib/\", .libPaths()))' >> ~/.Rprofile")
 file.edit("~/sasdata1/sasuser/packages_R_externes/sndsetup.csv")
