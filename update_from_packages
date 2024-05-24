@@ -1,0 +1,6 @@
+cp ../sndshare/zzz_sndshare.csv csv_packages
+cp ../sndshell/zzz_sndshell.csv csv_packages
+cp ../sndsmart/zzz_sndsmart.csv csv_packages
+cp ../sndstyle/zzz_sndstyle.csv csv_packages
+
+update_csv_from_local
